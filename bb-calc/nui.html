@@ -103,7 +103,6 @@
         var p = document.getElementById("math").innerHTML
         if (!isNaN(value) || (validP.includes(value) && !p.endsWith(value))) {
           if (validP.includes(p.substring(p.length - 1)) && validP.includes(value)) return throwError()
-          if (!validP.includes(p.substring(p.length - 1)) && value == '(') document.getElementById("math").innerHTML += "*"
 
           document.getElementById("math").innerHTML += value
         } else if (value == 'DEL') {
