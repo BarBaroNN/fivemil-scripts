@@ -1,4 +1,4 @@
-#bb-calc
+# bb-calculator
 Simple calculator script for FiveM
 
 preview:
